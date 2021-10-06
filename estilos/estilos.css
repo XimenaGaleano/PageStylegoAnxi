@@ -10,7 +10,7 @@ body{
 
 .navbar{
     display: flex ;
-    justify-content: space-between;
+    justify-content:space-between;
     padding: 10px;
 }
 .logo{
@@ -20,13 +20,32 @@ body{
     background-color: green;
     color: white;
     cursor: pointer;
-    border: 0px;
-    padding: 5px 10px;
-    border-radius: 10px;
-    box-shadow: 1px 1px black;
 }
 
-.mainButton:hover{
-    box-shadow: 5px 5px black;
+button{
+    border: 0px;
+    padding: 5px 10px;
+    border-radius: 10px;   
+}
+
+button:hover{
+    cursor: pointer;
     transform: scale(1.1);
+}
+.mainButton{
+    background-color: green;
+    color: white;    
+    box-shadow: 1px 1px black;
+}
+.mainButton:hover{
+    box-shadow: 5px 5px black;    
+}
+.secondaryButton{
+    background-color: rgb(104, 16, 163);
+    color: white;    
+    box-shadow: 1px 1px rgb(24, 5, 59);
+}
+
+.secondaryButton:hover{
+    box-shadow: 5px 5px rgba(45, 7, 53, 0.555);    
 }
