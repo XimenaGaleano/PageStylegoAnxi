@@ -21,19 +21,17 @@ button{
     padding: 5px 10px;
     border-radius: 10px;   
 }
-
 button:hover{
     cursor: pointer;
     transform: scale(1.1);
+    box-shadow: 5px 5px black;  
 }
 .mainButton{
     background-color: green;
     color: white;    
     box-shadow: 1px 1px black;
 }
-.mainButton:hover{
-    box-shadow: 5px 5px black;    
-}
+
 .secondaryButton{
     background-color: rgb(104, 16, 163);
     color: white;    
