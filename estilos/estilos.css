@@ -70,3 +70,20 @@ body{
 .iconobuscar:hover{
     color: blue;
 }
+
+.breedCardContainer{
+    display: flex;
+}
+
+.breedCard{
+    margin: 20px;
+}
+.contenedorImagen{
+    height: 250px;
+    width: 280px;
+    display: flex;
+}
+.contenedorImagen > img{
+    object-fit: fill;
+    width: 100%;
+}
