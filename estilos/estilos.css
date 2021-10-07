@@ -46,7 +46,7 @@ body{
 .secondaryButton{
     background-color: rgb(138, 43, 201);
     color: white;    
-}
+} 
 
 .secondaryButton:hover{
     box-shadow: 5px 5px rgba(45, 7, 53, 0.555);    
@@ -70,11 +70,11 @@ body{
 }
 
 .buscar:focus-within{
-    border: 1px solid blue;
+    border: 2px solid rgb(54, 1, 61);
 }
 
 .iconobuscar:hover{
-    color: blue;
+    color: rgb(54, 1, 61);
 }
 
 .breedCardContainer{
