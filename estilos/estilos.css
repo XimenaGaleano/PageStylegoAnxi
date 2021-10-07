@@ -79,21 +79,37 @@ body{
 
 .breedCardContainer{
     display: flex;
+    
 }
 
 .breedCard{
     margin: 20px;
+    background-color: rgb(239, 174, 255);
+    border-radius: 20px;
+    align-items: center;
 }
 
+.breedTitle{
+    font-weight: bold;
+    font-size: x-large;
+    margin: 0px;
+
+}
 .contenedorImagen{
     height: 250px;
     width: 280px;
     display: flex;
+    margin-bottom: 20px;
 }
 
+.contenedorImagen:hover{
+    cursor: pointer;
+    transform: scale(1.09);
+}
 .contenedorImagen > img{
     object-fit: fill;
     width: 100%;
+    
 }
 
 h1{
